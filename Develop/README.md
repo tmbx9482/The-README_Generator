@@ -1,5 +1,5 @@
 # Unit 09 Node.js and ES6+ Homework: Good README Generator 
-  [![License: ODbL](https://img.shields.io/badge/License-ODbL-blueviolet.svg)](https://opendatacommons.org/licenses/odbl/) 
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
  
  
 ## Project Description 
@@ -50,21 +50,14 @@
  
 ## My Email Address 
  
- Troyberentsen94@gmail.com 
+ TroyBerentsen94@gmail.com 
  
  
 ## Questions 
  
- If you have quesitons contact me at Troyberentsen94@gmail.com 
+ If you have quesitons contact me at TroyBerentsen94@gmail.com 
  
  
 ## License 
  
  Apache 
- 
- ## Recorded Video
-https://drive.google.com/file/d/1AM68MBLiBM9MDEaDir_f4RL2-3ZIDwHQ/view
-
-## ScreenShots
-![Screenshot (120)](https://user-images.githubusercontent.com/62157127/91929941-8b5f5700-ecad-11ea-8a8a-6fc738da03c3.png)
-![Screenshot (121)](https://user-images.githubusercontent.com/62157127/91929945-8d291a80-ecad-11ea-8961-4565e4ce9ab6.png)

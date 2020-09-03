@@ -35,20 +35,7 @@ const questions = [{
   message: `Can you tell me about your project?`,
   default: "When creating an open source project on GitHub, it is important to have a quality README with information about the app--what is the app for, how to use the app, how to install it, how to report issues, and how to make contributions so that other developers are more likely to use and contribute to the success of the project. A command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README."
 },
-// {
-//   type: "input",
-//   message: `What is the table of contents?`,
-//   name: "tableOfContents",
-//   default: [
-//     " 1. Title",
-//     "2. Descriptions",
-//     "3. Install Instructions",
-//     " 4. Usage",
-//     "5. Contributing",
-//     "6. Tests",
-//     "7. Questions"
-//   ],
-// },
+
 {
   type: "input",
   message: `Give instructions on how to install.`,
@@ -97,7 +84,7 @@ const tableOfContents = `
 
 inquirer.prompt(questions).then(data => {
   fs.writeFileSync("README.md", (`# ${data.title} 
-  [![License: ODbL](https://img.shields.io/badge/License-ODbL-blueviolet.svg)](https://opendatacommons.org/licenses/odbl/) \n \n \n`))
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) \n \n \n`))
   fs.appendFileSync("README.md", (`## Project Description \n \n ${data.descriptions} \n \n \n`))
   fs.appendFileSync("README.md", tableOfContents)
   fs.appendFileSync("README.md", (`## Installation \n \n ${data.install} \n \n \n`))
